@@ -1,7 +1,7 @@
 
 ## About
 
-This small node script pulls information from wunderground and pushes to infuxdb.
+This small node script pulls information from openweather and pushes to infuxdb.
 It uses slack to notify of errors.
 
 I use this to show outside conditions on my home weather monitoring dashboard.
@@ -36,7 +36,7 @@ INFLUX_DB=highgarden
 SLACK_API_TOKEN=foobar
 SLACK_CHANNEL=bots
 SLACK_BOT_NAME=wu-status
-WUNDERGROUND_KEY=foobar
+OPENWEATHER_KEY=foo
 UPDATE_FREQUENCY=1800000
 ZIP_CODE=97214
 ```
