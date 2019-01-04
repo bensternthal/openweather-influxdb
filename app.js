@@ -20,8 +20,6 @@ bot.on('error', (data) => {
     console.log(data);
 });
 
-Weather.getData();
-
 function getData() {
     Weather.getData().then(Influx.writeInflux).then(function() {
         setTimeout(getData, updateFrequency);

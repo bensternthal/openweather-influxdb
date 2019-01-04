@@ -10,11 +10,11 @@
   "author": "Benjamin Sternthal",
   "license": "MPL-2.0",
   "dependencies": {
-    "openweather-apis": "^3.3.5",
     "dotenv": "4.0.0",
-    "influx": "4.2.1",
-    "slackbots": "0.5.2",
     "eslint": "3.19.0",
-    "eslint-config-google": "0.7.1"    
+    "eslint-config-google": "0.7.1",
+    "influx": "4.2.1",
+    "openweather-apis": "^3.3.5",
+    "slackbots": "0.5.2"
   }
 }
