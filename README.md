@@ -9,13 +9,13 @@ I use this to show outside conditions on my home weather monitoring dashboard.
 ![Grafana](/grafana.png)
 
 
-## Wunderground Data
+## Openweather Data
 
 Bot pulls the following data for the zip specified.
 
-1. current_temperature
-1. current_humidity
-1. pressure_mb
+1. temperature
+1. humidity
+1. pressure mb
 
 
 ## Install
